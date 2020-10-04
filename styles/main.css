@@ -4,6 +4,23 @@ html {
     background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
     font-size: 15px;
+}
+
+.upper {
+
+}
+
+.upper-left {
+    color: red;
+    font-weight: 700;
+}
+
+.upper-right {
+
+}
+
+.lower {
+
 }
