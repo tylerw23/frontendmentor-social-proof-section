@@ -8,19 +8,41 @@ html {
     font-size: 15px;
 }
 
-.upper {
-
+.container {
+    height: 100%;
+    width: 100%;
 }
 
-.upper-left {
-    color: red;
+.first-half {
+    display: flex;
+}
+
+.description {
+    width: 50%;
+}
+
+.description-top {
     font-weight: 700;
 }
 
-.upper-right {
+.description-down {
 
 }
 
-.lower {
+.rating {
+    width: 50%;
+}
 
+.review {
+    display: flex;
+    flex-wrap: row;
+}
+
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
 }
