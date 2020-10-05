@@ -13,13 +13,11 @@ body {
 }
 
 .container {
-    /* padding: 100px 120px; */
     height: 100%;
     padding: 0px 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-items: center; */
 }
 
 .first-half {
@@ -76,7 +74,6 @@ body {
 .review {
     display: flex;
     justify-content: center;
-    /* margin: 50px 0px; */
 }
 
 .review > span {
