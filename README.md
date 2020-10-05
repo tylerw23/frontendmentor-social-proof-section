@@ -11,6 +11,7 @@ You can click [here](https://www.frontendmentor.io/challenges/social-proof-secti
 
 ### Demo Preview
 Wait to implement
+
 <!-- <details>
     <summary>Web version</summary>
     <img src="./demos/demo_web.png" alt="web demo img">
