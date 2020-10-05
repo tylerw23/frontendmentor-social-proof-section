@@ -8,34 +8,135 @@ html {
     font-size: 15px;
 }
 
-.container {
+body {
     height: 100%;
-    width: 100%;
+}
+
+.container {
+    /* padding: 100px 120px; */
+    height: 100%;
+    padding: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
 }
 
 .first-half {
     display: flex;
+    justify-content: space-between;
 }
 
 .description {
-    width: 50%;
+    width: 40%;
 }
 
 .description-top {
     font-weight: 700;
+    font-size: xxx-large;
+    color: hsl(300, 43%, 22%);
 }
 
 .description-down {
-
+    margin: 20px 0px;
+    color: hsl(303, 10%, 53%);
 }
 
 .rating {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating > span:nth-child(1) {
+    transform: translateX(-100px);
+}
+
+.rating > span:nth-child(2) {
+    transform: translateX(-50px);
+}
+
+.rating-block {
+    margin: 10px;
+    width: 420px;
+    padding: 20px;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+
+.rating-block-star {
+    padding: 0px 20px;
+}
+
+.rating-block-text {
+    padding: 0px 5px;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
 }
 
 .review {
     display: flex;
-    flex-wrap: row;
+    justify-content: center;
+    /* margin: 50px 0px; */
+}
+
+.review > span {
+    margin: 0px 20px;
+}
+
+.review > span:first-child {
+    margin-left: 0px;
+}
+
+.review > span:last-child {
+    margin-right: 0px;
+}
+
+.review > span:nth-child(2) {
+    margin-top: 20px;
+}
+
+.review > span:nth-child(3) {
+    margin-top: 40px;
+}
+
+.review-block {
+    background-color: hsl(300, 43%, 22%);
+    padding: 10px;
+    height: 200px;
+}
+
+
+.review-block-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 30px 20px 10px 20px;
+}
+
+.review-block {
+    border-radius: 10px;
+}
+
+.review-block-header {
+    padding: 30px;
+    display: relative;
+    padding: 30px 0px 10px 0px;
+    line-height: 20px;
+}
+
+.review-block-header-name {
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+}
+
+.review-block-header-status {
+    color: hsl(333, 80%, 67%);
+}
+
+.review-block-text {
+    color: hsl(303, 10%, 53%);
+    margin: 10px 20px 20px 20px;
 }
 
 .attribution {
@@ -44,5 +145,5 @@ html {
     color: hsl(228, 45%, 44%);
     left: 50%;
     transform: translateX(-50%);
-    bottom: 5%;
+    bottom: 3%;
 }
